@@ -125,19 +125,19 @@ namespace SWExtension.CalAndLocalsImporter
                                 {
                                     _includeParameter = true;
                                     _parameterName = entry.Remove(entry.IndexOf('=')).Trim();
-                                    _includedParameterType = "5CAL"; // Calibration
+                                    _includedParameterType = "8CBDS"; // Signal
                                 }
                                 else if (entry.Substring(4, 2) == (validParameters[6]))
                                 {
                                     _includeParameter = true;
                                     _parameterName = entry.Remove(entry.IndexOf('=')).Trim();
-                                    _includedParameterType = "5CAL"; // Calibration
+                                    _includedParameterType = "8CBDS"; // Signal
                                 }
                                 else if (entry.Substring(4, 2) == (validParameters[7]))
                                 {
                                     _includeParameter = true;
                                     _parameterName = entry.Remove(entry.IndexOf('=')).Trim();
-                                    _includedParameterType = "5CAL"; // Calibration
+                                    _includedParameterType = "8CBDS"; // Signal
                                 }
                                 else if (entry.Substring(4, 2) == (validParameters[8]))
                                 {
